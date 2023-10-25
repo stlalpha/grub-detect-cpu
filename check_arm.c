@@ -22,6 +22,8 @@ static void check_arm(void)
     grub_printf("<  πMiga  >\n");
     grub_printf(" \\      /\n");
     grub_printf("   `--'\n");
+    grub_printf("\n");
+    grub_printf("Checking CPU type...\n");
 
     // Execute a basic ARM MOV instruction to move the value 42 into a register.
     asm volatile("mov %0, #42"
